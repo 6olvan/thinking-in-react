@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.main {
+  width: 200px;
+}
+
+.main .results {
+  margin-top: 10px;
+  width: 180px;
+  text-align: left;
+}
+
+.main .two-col-row {
+  /*margin-bottom: 5px;*/
+}
+
+.left-col {
+  float: left;
+}
+
+.right-col {
+  float: right;
+}
